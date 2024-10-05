@@ -1,0 +1,59 @@
+tap "homebrew/core"
+tap "homebrew/cask"
+tap "homebrew/bundle"
+tap "AdoptOpenJDK/openjdk"
+
+cask_args appdir: "/Applications"
+
+# Unix packages
+brew "git"
+brew "git-lfs"
+brew "curl"
+brew "wget"
+brew "jq"
+brew "htop"
+
+# shell
+brew "bash"
+brew "zsh"
+brew "zsh-completions"
+cask "iterm2"
+
+# languages
+#cask "adoptopenjdk8"
+#cask "adoptopenjdk11"
+#cask "adoptopenjdk14"
+#brew "scala"
+#brew "python3"
+#brew "pyenv"
+#brew "pyenv-virtualenv"
+#brew "golang" 
+
+# IDE
+cask "visual-studio-code"
+#cask "intellij-idea-ce"
+#cask "pycharm-ce"
+
+# dev tools
+cask "google-chrome"
+cask "slack"
+cask "notion"
+cask "fork"
+cask "docker"
+cask "virtualbox"
+cask "termius"
+#cask "cyberduck"
+
+# mas
+mas "KakaoTalk", id: 869223134
+
+# work tools
+#cask "microsoft-office"
+cask "microsoft-word"
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
+#cask "microsoft-outlook"
+cask "microsoft-teams"
+cask "onedrive"
+#cask "teamviewer"
+cask "chrome-remote-desktop-host"
